@@ -16,12 +16,12 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to='/'>Pizzas</SidebarLink>
-        <SidebarLink to='/'>Desserts</SidebarLink>
-        <SidebarLink to='/'>Full Menu</SidebarLink>
+        <SidebarLink to='/'>Pizza</SidebarLink>
+        <SidebarLink to='/'>Dessert</SidebarLink>
+        <SidebarLink to='/'> Menu</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
+        <SidebarRoute to='/'>Order Right Now</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );
